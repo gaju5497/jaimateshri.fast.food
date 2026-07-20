@@ -1,0 +1,2771 @@
+/* ===========================
+   GOOGLE FONT & RESET
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header {
+    width: 100%;
+    padding: 14px 8%;
+
+    background: linear-gradient(
+        135deg,
+        #ffd180,
+        #ffb74d
+    );
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.10);
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo-text span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.logo-text small {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6d4c41;
+}
+
+.logo-text em {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    color: #e65100;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e65100;
+}
+
+/* =========================================
+   HERO SECTION
+   Jai Mateshri Bhel & Fast Food
+========================================= */
+
+.hero {
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 650px;
+
+    padding: 70px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff8e1,
+            #ffe0b2
+        );
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+/* =========================================
+   HERO CONTAINER
+========================================= */
+
+.hero-container {
+
+    width: 100%;
+
+    max-width: 1250px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1.05fr
+        0.95fr;
+
+    align-items: center;
+
+    gap: 70px;
+
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+/* =========================================
+   HERO TAG
+========================================= */
+
+.hero-tag {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    margin-bottom: 20px;
+
+    background: #ffffff;
+
+    color: #e65100;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    box-shadow:
+        0 5px 15px
+        rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* =========================================
+   HERO MAIN HEADING
+========================================= */
+
+.hero h1 {
+
+    font-size: 58px;
+
+    line-height: 1.15;
+
+    font-weight: 700;
+
+    color: #333333;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h1 span {
+
+    color: #ff9800;
+
+}
+
+
+/* =========================================
+   HERO SUB HEADING
+========================================= */
+
+.hero h2 {
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    color: #555555;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =========================================
+   HERO DESCRIPTION
+========================================= */
+
+.hero p {
+
+    max-width: 600px;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    color: #666666;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =========================================
+   HERO HIGHLIGHT
+========================================= */
+
+.hero-highlight {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+    color: #e65100;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+
+.hero-highlight i {
+
+    color: #ff5722;
+
+    font-size: 20px;
+
+}
+
+
+
+/* =========================================
+   GENERAL BUTTON
+========================================= */
+
+.hero-buttons .btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    padding: 14px 25px;
+
+    border-radius: 35px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+
+}
+
+
+/* =========================================
+   EXPLORE MENU BUTTON
+========================================= */
+
+.hero-buttons .primary-btn {
+
+    background: #ff9800;
+
+    color: #ffffff;
+
+    box-shadow:
+        0 8px 20px
+        rgba(255, 152, 0, 0.3);
+
+}
+
+
+.hero-buttons .primary-btn:hover {
+
+    background: #e68900;
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(255, 152, 0, 0.4);
+
+}
+
+
+/* =========================================
+   CALL BUTTON
+========================================= */
+
+.hero-buttons .call-btn {
+
+    background: #ffffff;
+
+    color: #333333;
+
+    border: 2px solid #ff9800;
+
+}
+
+
+.hero-buttons .call-btn i {
+
+    color: #ff9800;
+
+}
+
+
+.hero-buttons .call-btn:hover {
+
+    background: #fff8e1;
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 20px
+        rgba(0, 0, 0, 0.12);
+
+}
+
+
+/* =========================================
+   HERO IMAGE WRAPPER
+========================================= */
+
+.hero-image-wrapper {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/* =========================================
+   HERO IMAGE CARD
+========================================= */
+
+.hero-image-card {
+
+    position: relative;
+
+    width: 100%;
+
+    max-width: 550px;
+
+    border-radius: 30px;
+
+    overflow: visible;
+
+}
+
+
+/* =========================================
+   HERO IMAGE
+========================================= */
+
+.hero-image-card img {
+
+    width: 100%;
+
+    height: 470px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 20px 45px
+        rgba(0, 0, 0, 0.20);
+
+}
+
+
+/* =========================================
+   HERO IMAGE BADGE
+========================================= */
+
+.hero-image-badge {
+
+    position: absolute;
+
+    left: -25px;
+
+    bottom: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 15px 20px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.15);
+
+}
+
+
+.hero-image-badge > i {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: #ff9800;
+
+    color: #ffffff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.hero-image-badge div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.hero-image-badge strong {
+
+    font-size: 14px;
+
+    color: #333333;
+
+}
+
+
+.hero-image-badge small {
+
+    margin-top: 3px;
+
+    color: #777777;
+
+    font-size: 12px;
+
+}
+
+
+/* =========================================
+   HERO DECORATIVE CIRCLE
+========================================= */
+
+.hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+
+    height: 350px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255, 193, 7, 0.12);
+
+    top: -150px;
+
+    right: -100px;
+
+}
+
+
+/* =========================================
+   HERO DECORATIVE CIRCLE
+========================================= */
+
+.hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+
+    height: 250px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255, 87, 34, 0.08);
+
+    bottom: -120px;
+
+    left: -80px;
+
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+.search-section {
+    padding: 50px 10%;
+    background: white;
+}
+
+.search-section input {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 40px;
+    font-size: 17px;
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,.12);
+}
+
+/* ===========================
+   CATEGORIES
+=========================== */
+
+.categories {
+    padding: 60px 8%;
+}
+
+.categories h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 34px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
+    gap: 25px;
+}
+
+.category-card {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    font-size: 40px;
+}
+
+.category-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+    background: #FFF8E1;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    color: #FFC107;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    gap:18px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.btn{
+    width:220px;
+    margin:auto;
+}
+
+.categories h2{
+    font-size:28px;
+}
+
+.category-card{
+    font-size:32px;
+    padding:25px;
+}
+
+}
+
+/* ===============================
+   POPULAR ITEMS
+================================= */
+
+.popular-items {
+    padding: 60px 8%;
+    background: #f8f8f8;
+}
+
+.popular-items h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.food-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.food-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.food-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #ff9800;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.food-card h3 {
+    margin: 15px;
+    font-size: 24px;
+}
+
+.food-card p {
+    margin: 0 15px;
+    color: #666;
+}
+
+.food-card h4 {
+    margin: 15px;
+    color: #ff9800;
+    font-size: 22px;
+}
+
+.food-card button {
+    margin: 15px;
+    width: calc(100% - 30px);
+    padding: 12px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.food-card button:hover {
+    background: #e68900;
+}
+
+/* ===============================
+   TODAY'S SPECIAL
+================================= */
+
+.today-special {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 8%;
+    background: #fff8e1;
+    flex-wrap: wrap;
+}
+
+.special-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.special-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.special-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.special-content h2 {
+    color: #ff9800;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.special-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.special-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.special-content h3 {
+    font-size: 30px;
+    color: #ff5722;
+    margin-bottom: 25px;
+}
+
+.special-content .btn {
+    display: inline-block;
+}
+
+/* ===============================
+   FLOATING BUTTONS
+================================= */
+
+.floating-whatsapp {
+
+    position: fixed;
+
+    bottom: 25px;
+
+    right: 25px;
+
+    width: 60px;
+
+    height: 60px;
+
+    background: #25D366;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    text-decoration: none;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+
+    z-index: 999;
+
+    transition: .3s;
+
+}
+
+.floating-whatsapp:hover {
+
+    transform: scale(1.1);
+
+}
+
+.floating-call {
+
+    position: fixed;
+
+    bottom: 100px;
+
+    right: 25px;
+
+    width: 60px;
+
+    height: 60px;
+
+    background: #ff9800;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 26px;
+
+    text-decoration: none;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+
+    z-index: 999;
+
+    transition: .3s;
+
+}
+
+.floating-call:hover {
+
+    transform: scale(1.1);
+
+}
+
+/* ===============================
+   FOOD DETAILS MODAL
+================================= */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    animation: zoomIn 0.3s ease;
+}
+
+.modal-content img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.modal-content h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.modal-content h3 {
+    color: #ff9800;
+    margin: 10px 0;
+}
+
+.modal-content p {
+    padding: 0 20px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.modal-content .btn {
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.close {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+/* =========================================
+   DYNAMIC MENU PAGE
+   Jai Mateshri Bhel & Fast Food
+========================================= */
+
+
+/* ================================
+   MENU PAGE
+================================ */
+
+.menu-page {
+    background: #f8f8f8;
+    min-height: 500px;
+    padding-bottom: 60px;
+}
+
+
+/* ================================
+   MENU CATEGORY FILTER SECTION
+================================ */
+
+.menu-category-filter-section {
+    padding: 30px 8% 10px;
+    background: #ffffff;
+}
+
+
+/* Category Filter Container */
+
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Category Filter Button */
+
+.category-filter {
+    border: none;
+    background: #ffffff;
+    color: #333333;
+
+    padding: 12px 22px;
+
+    border-radius: 30px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+.category-filter:hover {
+    background: #fff8e1;
+
+    color: #ff9800;
+
+    transform: translateY(-3px);
+}
+
+
+/* Active Category */
+
+.category-filter.active {
+    background: #ff9800;
+
+    color: #ffffff;
+
+    box-shadow: 0 6px 15px rgba(255, 152, 0, 0.3);
+}
+
+
+/* ================================
+   MENU CONTAINER
+================================ */
+
+.menu-container {
+    padding: 40px 8% 0;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+
+/* ================================
+   MENU CATEGORY SECTION
+================================ */
+
+.menu-category-section {
+    margin-bottom: 60px;
+}
+
+
+/* ================================
+   CATEGORY HEADING
+================================ */
+
+.menu-category-heading {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.menu-category-heading h2 {
+    font-size: 30px;
+
+    color: #333333;
+
+    margin-bottom: 8px;
+}
+
+
+.menu-category-heading p {
+    color: #777777;
+
+    font-size: 15px;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    line-height: 1.6;
+}
+
+
+/* ================================
+   FOOD GRID
+================================ */
+
+.menu-food-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(260px, 1fr)
+        );
+
+    gap: 30px;
+}
+
+
+/* ================================
+   FOOD CARD
+================================ */
+
+.menu-food-card {
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 20px
+        rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* Food Card Hover */
+
+.menu-food-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(0, 0, 0, 0.15);
+}
+
+
+/* ================================
+   FOOD IMAGE CONTAINER
+================================ */
+
+.menu-food-image {
+    width: 100%;
+
+    height: 220px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff8e1,
+            #ffe0b2
+        );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+/* Food Image */
+
+.menu-food-image img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.5s ease;
+}
+
+
+/* Image Hover */
+
+.menu-food-card:hover
+.menu-food-image img {
+    transform: scale(1.08);
+}
+
+
+/* ================================
+   FOOD PLACEHOLDER
+================================ */
+
+.food-placeholder {
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 65px;
+}
+
+
+/* ================================
+   MENU BADGE
+================================ */
+
+.menu-badge {
+    position: absolute;
+
+    top: 15px;
+
+    left: 15px;
+
+    background: #ff9800;
+
+    color: #ffffff;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    z-index: 2;
+
+    box-shadow:
+        0 3px 8px
+        rgba(0, 0, 0, 0.15);
+}
+
+
+/* Popular Badge */
+
+.popular-badge {
+    background: #ff5722;
+}
+
+
+/* ================================
+   FOOD CONTENT
+================================ */
+
+.menu-food-content {
+    padding: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+
+
+/* Food Name */
+
+.menu-food-content h3 {
+    font-size: 20px;
+
+    color: #333333;
+
+    margin-bottom: 8px;
+}
+
+
+/* Food Description */
+
+.menu-food-description {
+    color: #777777;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+    flex: 1;
+}
+
+
+/* ================================
+   FOOD BOTTOM
+================================ */
+
+.menu-food-bottom {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+/* Food Price */
+
+.menu-food-price {
+    color: #ff9800;
+
+    font-size: 22px;
+
+    font-weight: 700;
+}
+
+
+/* ================================
+   VIEW DETAILS BUTTON
+================================ */
+
+.view-details-btn {
+    border: none;
+
+    background: #ff9800;
+
+    color: #ffffff;
+
+    padding: 10px 16px;
+
+    border-radius: 10px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        all 0.3s ease;
+}
+
+
+.view-details-btn:hover {
+    background: #e68900;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 12px
+        rgba(255, 152, 0, 0.3);
+}
+
+
+/* ================================
+   NO RESULTS
+================================ */
+
+.no-results {
+    text-align: center;
+
+    padding: 80px 20px;
+
+    color: #666666;
+}
+
+
+.no-results-icon {
+    font-size: 60px;
+
+    margin-bottom: 15px;
+}
+
+
+.no-results h3 {
+    font-size: 24px;
+
+    color: #333333;
+
+    margin-bottom: 10px;
+}
+
+
+.no-results p {
+    font-size: 15px;
+
+    color: #777777;
+}
+
+
+/* ================================
+   MENU ERROR
+================================ */
+
+.menu-error {
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 5px 15px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.menu-error h3 {
+    color: #e53935;
+
+    margin-bottom: 10px;
+}
+
+
+.menu-error p {
+    color: #777777;
+}
+
+
+/* ================================
+   MENU MODAL IMPROVEMENTS
+================================ */
+
+.modal-content {
+    animation:
+        zoomIn 0.3s ease;
+}
+
+
+.modal-content .whatsapp-btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+}
+
+
+/* ================================
+   MENU PAGE SEARCH
+================================ */
+
+.menu-page
+.search-section {
+    padding:
+        50px 10% 35px;
+
+    background: #ffffff;
+}
+
+
+.menu-page
+.search-section h1 {
+    font-size: 36px;
+
+    color: #333333;
+}
+
+
+/* ================================
+   MENU DIVIDER
+================================ */
+
+.menu-category-section
++ .menu-category-section {
+    padding-top: 20px;
+}
+
+
+/* ================================
+   ACCESSIBILITY
+================================ */
+
+.category-filter:focus,
+.view-details-btn:focus,
+.search-section input:focus {
+    outline: 3px solid
+        rgba(255, 152, 0, 0.3);
+
+    outline-offset: 3px;
+}
+
+/* =========================================
+   CONTACT PAGE
+========================================= */
+
+.contact-page {
+    background: #f8f8f8;
+    padding: 70px 8%;
+    min-height: 70vh;
+}
+
+
+/* Page Header */
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 17px;
+}
+
+
+/* Main Container */
+
+.contact-container {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 35px;
+}
+
+
+/* Contact Card */
+
+.contact-card {
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.08);
+}
+
+.contact-card > h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.contact-intro {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+/* Contact Item */
+
+.contact-item {
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 28px;
+
+    align-items: flex-start;
+}
+
+
+/* Contact Icon */
+
+.contact-icon {
+    min-width: 50px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background: #fff3e0;
+
+    color: #ff9800;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 20px;
+}
+
+
+/* WhatsApp Icon */
+
+.whatsapp-icon {
+    background: #e8f5e9;
+
+    color: #25D366;
+}
+
+
+/* Contact Details */
+
+.contact-details h3 {
+    margin-bottom: 5px;
+
+    color: #333;
+
+    font-size: 18px;
+}
+
+.contact-details p {
+    color: #666;
+
+    line-height: 1.7;
+}
+
+.contact-details a {
+    color: #ff9800;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+
+/* Google Maps Link */
+
+.map-link {
+    display: inline-block;
+
+    margin-top: 8px;
+}
+
+
+/* Visit Card */
+
+.visit-card {
+    background:
+        linear-gradient(
+            135deg,
+            #fff8e1,
+            #ffe0b2
+        );
+
+    padding: 50px 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.visit-icon {
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+    background: #ff9800;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 35px;
+
+    margin-bottom: 25px;
+}
+
+
+.visit-card h2 {
+    font-size: 32px;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+
+.visit-card p {
+    color: #555;
+
+    line-height: 1.8;
+
+    max-width: 450px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Contact Buttons */
+
+.contact-buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.contact-buttons .btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+}
+
+
+/* Google Maps Button */
+
+.map-btn {
+    color: #4e342e;
+    background: #ffffff;
+    border-color: #ffb74d;
+}
+
+
+.map-btn:hover {
+   background: #ffb74d;
+    color: #000000;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 6px 15px
+        rgba(0, 0, 0, 0.15);
+}
+
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-page {
+    background: #f8f8f8;
+    padding: 70px 8%;
+}
+
+
+/* Page Header */
+
+.about-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-header h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    color: #777;
+    font-size: 17px;
+}
+
+
+/* About Story */
+
+.about-story {
+    max-width: 1100px;
+    margin: 0 auto 70px;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    gap: 40px;
+
+    align-items: stretch;
+}
+
+
+.about-story-content {
+    background: #ffffff;
+
+    padding: 45px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.about-label {
+    display: inline-block;
+
+    color: #ff9800;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+
+.about-story-content h2 {
+    font-size: 30px;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+
+.about-story-content p {
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+}
+
+
+/* Year Highlight */
+
+.about-story-highlight {
+    background:
+        linear-gradient(
+            135deg,
+            #ff9800,
+            #ff5722
+        );
+
+    color: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.about-year {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+
+.about-year span {
+    font-size: 20px;
+}
+
+
+.about-year strong {
+    font-size: 70px;
+
+    line-height: 1;
+
+    margin-top: 5px;
+}
+
+
+.about-story-highlight p {
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* Section Title */
+
+.about-section-title {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+
+.about-section-title h2 {
+    font-size: 34px;
+
+    color: #333;
+
+    margin-bottom: 10px;
+}
+
+
+.about-section-title p {
+    color: #777;
+}
+
+
+/* Why Us */
+
+.why-us {
+    max-width: 1100px;
+
+    margin: 0 auto 70px;
+}
+
+
+.why-us-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            1fr
+        );
+
+    gap: 25px;
+}
+
+
+.why-card {
+    background: #ffffff;
+
+    padding: 30px 25px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 18px
+        rgba(0, 0, 0, 0.07);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.why-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(0, 0, 0, 0.12);
+}
+
+
+.why-icon {
+    font-size: 42px;
+
+    margin-bottom: 15px;
+}
+
+
+.why-card h3 {
+    color: #333;
+
+    font-size: 19px;
+
+    margin-bottom: 10px;
+}
+
+
+.why-card p {
+    color: #777;
+
+    line-height: 1.7;
+
+    font-size: 14px;
+}
+
+
+/* Mission */
+
+.mission-section {
+    max-width: 1100px;
+
+    margin: 0 auto 70px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff8e1,
+            #ffe0b2
+        );
+
+    border-radius: 20px;
+
+    padding: 55px;
+
+    text-align: center;
+}
+
+
+.mission-content {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+
+.mission-content h2 {
+    font-size: 36px;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+
+.mission-content p {
+    color: #555;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+}
+
+
+/* Visit Us */
+
+.about-visit {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 50px 30px;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.about-visit-icon {
+    width: 75px;
+
+    height: 75px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    background: #ff9800;
+
+    color: #ffffff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 32px;
+}
+
+
+.about-visit h2 {
+    font-size: 30px;
+
+    color: #333;
+
+    margin-bottom: 15px;
+}
+
+
+.about-visit p {
+    color: #666;
+
+    line-height: 1.7;
+
+    margin-bottom: 10px;
+}
+
+
+/* About Buttons */
+
+.about-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.about-buttons .btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+}
+
+/* =========================
+   CATEGORY LINK
+========================= */
+
+.category-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.category-link p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ff9800;
+    font-weight: 500;
+}
+
+.category-icon {
+    font-size: 40px;
+}
+/* =========================
+   WEBSITE LOGO
+========================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-text span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ff9800;
+}
+
+.logo-text small {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.logo-text em {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    color: #e65100;
+}
+
+
+/* =========================
+   MOBILE LOGO
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .logo img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .logo-text span {
+        font-size: 23px;
+    }
+
+    .logo-text small {
+        font-size: 12px;
+    }
+
+    .logo-text em {
+        font-size: 11px;
+    }
+
+}
+
+/* =========================================
+   BROWSE CATEGORIES
+========================================= */
+
+.browse-categories {
+    padding: 80px 8%;
+    background: #fff8e1;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.section-heading span {
+    color: #ff9800;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 38px;
+    color: #333;
+}
+
+.section-heading p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* Category Grid */
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Category Card */
+
+.food-category-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    transition: all 0.35s ease;
+}
+
+.food-category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Image */
+
+.category-image {
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.food-category-card:hover .category-image img {
+    transform: scale(1.08);
+}
+
+
+/* Hover Overlay */
+
+.category-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+
+    transition: opacity 0.3s ease;
+}
+
+.food-category-card:hover .category-overlay {
+    opacity: 1;
+}
+
+.category-overlay span {
+    background: #ff9800;
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+}
+
+
+/* Category Information */
+
+.category-info {
+    padding: 22px;
+    text-align: center;
+}
+
+.category-info h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.category-info p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media screen and (max-width: 991px) {
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media screen and (max-width: 600px) {
+
+    .browse-categories {
+        padding: 60px 20px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-image {
+        height: 220px;
+    }
+
+}
+
+/* =========================================
+   ABOUT STORY - LOGO
+========================================= */
+
+.about-story-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+
+    .about-story-logo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+}
+/* =========================
+   FINAL LOGO NAME COLOR
+========================= */
+
+.logo-text span {
+    color: #000000 !important;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.site-footer {
+
+    background: #222222;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    padding: 40px 20px 25px;
+
+}
+
+
+.footer-content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+
+.site-footer h3 {
+
+    color: #ffb74d;
+
+    font-size: 22px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.footer-tagline {
+
+    color: #dddddd;
+
+    font-size: 14px;
+
+    margin-bottom: 22px;
+
+}
+
+
+/* =========================================
+   INSTAGRAM LINK
+========================================= */
+
+.instagram-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    padding: 11px 20px;
+
+    border-radius: 30px;
+
+    background: #ffffff;
+
+    color: #e1306c;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+
+}
+
+
+.instagram-link i {
+
+    font-size: 22px;
+
+}
+
+
+.instagram-link:hover {
+
+    transform: translateY(-3px);
+
+    background: #fff3f7;
+
+    box-shadow:
+        0 8px 20px
+        rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* =========================================
+   COPYRIGHT
+========================================= */
+
+.footer-copyright {
+
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top:
+        1px solid
+        rgba(255, 255, 255, 0.15);
+
+    color: #999999;
+
+    font-size: 12px;
+
+}
+
+/* =========================================
+   VISIT US BUTTONS - NEW DESIGN
+========================================= */
+
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.contact-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 12px 22px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    color: #4e342e;
+
+    background: #ffffff;
+
+    border: 2px solid #ffb74d;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Call */
+
+.contact-buttons .call-btn {
+    color: #4e342e;
+    background: #ffffff;
+    border-color: #ffb74d;
+}
+
+
+/* WhatsApp */
+
+.contact-buttons .whatsapp-btn {
+    color: #4e342e;
+    background: #ffffff;
+    border-color: #ffb74d;
+}
+
+
+/* Get Directions */
+
+.contact-buttons .map-btn {
+    color: #4e342e;
+    background: #ffffff;
+    border-color: #ffb74d;
+}
+
+
+/* Hover */
+
+.contact-buttons .btn:hover {
+    background: #ffb74d;
+    color: #000000;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 6px 15px
+        rgba(0, 0, 0, 0.15);
+}
+
+/* ================================
+   ORDER ON WHATSAPP BUTTON
+================================ */
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background: #25D366;
+    color: #4e342e !important;
+
+    padding: 14px 28px;
+    border-radius: 50px;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+    border: none;
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.35);
+
+    transition: all 0.3s ease;
+}
+
+/* Hover Animation */
+.whatsapp-btn:hover {
+    background: #128C7E;
+    color: #ffffff !important;
+
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.5);
+}
+
+/* Click / Press Effect */
+.whatsapp-btn:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .whatsapp-btn {
+        padding: 12px 24px;
+        font-size: 17px;
+    }
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background: #25D366;
+    color: white;
+    padding: 14px 28px;
+
+    border-radius: 50px;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.35);
+
+    transition: all 0.3s ease;
+}
+
+/* Hover Animation */
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.45);
+}
+
+/* Click Effect */
+.whatsapp-btn:active {
+    transform: scale(0.97);
+}

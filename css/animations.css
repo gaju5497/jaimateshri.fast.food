@@ -1,0 +1,129 @@
+/* ==========================================
+   ANIMATIONS.CSS
+   Jai Mateshri Bhel & Fast Food
+========================================== */
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide From Left */
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Slide From Right */
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Zoom In */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Floating Effect */
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Hero Animation */
+.hero-content {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Logo Animation */
+.logo {
+    animation: slideLeft 0.8s ease;
+}
+
+/* Navigation Animation */
+nav {
+    animation: slideRight 0.8s ease;
+}
+
+/* Category Cards */
+.category-card {
+    animation: zoomIn 0.8s ease;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Search Box */
+.search-section input {
+    transition: all 0.3s ease;
+}
+
+.search-section input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(255,152,0,0.4);
+}
+
+/* Menu Images */
+.category-card img {
+    transition: transform 0.4s ease;
+}
+
+.category-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Footer */
+footer {
+    animation: fadeIn 1.2s ease;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
