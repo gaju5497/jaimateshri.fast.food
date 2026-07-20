@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Jai Mateshri Bhel & Fast Food</title>
+
+
+    <!-- ============================= -->
+    <!-- CSS -->
+    <!-- ============================= -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/animations.css">
+
+
+    <!-- ============================= -->
+    <!-- Google Font -->
+    <!-- ============================= -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- ============================= -->
+    <!-- Font Awesome -->
+    <!-- ============================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ============================= -->
+    <!-- HEADER -->
+    <!-- ============================= -->
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+    <a href="index.html">
+
+        <img src="images/logo/logo.jpeg"
+             alt="Jai Mateshri Bhel & Fast Food Logo">
+
+        <div class="logo-text">
+
+            <span>Jai Mateshri</span>
+
+            <small>Bhel & Fast Food</small>
+
+            <em>TASTE एकदम BEST</em>
+
+        </div>
+
+    </a>
+        </div>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="menu.html">Menu</a>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ============================= -->
+    <!-- MENU PAGE -->
+    <!-- ============================= -->
+
+    <section class="menu-page">
+
+
+        <!-- ============================= -->
+        <!-- PAGE TITLE & SEARCH -->
+        <!-- ============================= -->
+
+        <section class="search-section">
+
+            <h1
+                style="
+                    text-align:center;
+                    margin-bottom:20px;
+                ">
+
+                Our Menu
+
+            </h1>
+
+
+            <input
+
+                type="text"
+
+                id="menuSearch"
+
+                placeholder="🔍 Search your favourite food..."
+
+            >
+
+        </section>
+
+
+
+        <!-- ============================= -->
+        <!-- CATEGORY FILTERS -->
+        <!-- ============================= -->
+
+        <section class="menu-category-filter-section">
+
+            <div
+                id="menuCategories"
+                class="menu-categories">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ============================= -->
+        <!-- DYNAMIC MENU ITEMS -->
+        <!-- ============================= -->
+
+        <main
+            id="menuContainer"
+            class="menu-container">
+
+            <!--
+
+                Menu items will be
+                automatically loaded here
+                using menu.js
+
+            -->
+
+        </main>
+
+
+    </section>
+
+
+
+    <!-- ============================= -->
+    <!-- FOOD DETAILS MODAL -->
+    <!-- ============================= -->
+
+    <div
+        id="foodModal"
+        class="modal">
+
+
+        <div class="modal-content">
+
+
+            <!-- Close Button -->
+
+            <span
+                class="close"
+                aria-label="Close">
+
+                &times;
+
+            </span>
+
+
+
+            <!-- Food Image -->
+
+            <img
+
+                id="modalImage"
+
+                src=""
+
+                alt="Food Image"
+
+            >
+
+
+
+            <!-- Food Name -->
+
+            <h2
+                id="modalTitle">
+
+            </h2>
+
+
+
+            <!-- Food Price -->
+
+            <h3
+                id="modalPrice">
+
+            </h3>
+
+
+
+            <!-- Food Description -->
+
+            <p
+                id="modalDescription">
+
+            </p>
+
+
+
+            <!-- WhatsApp Order Button -->
+
+            <a
+
+                href="https://wa.me/91976310500"
+
+                class="btn whatsapp-btn"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+
+            >
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                Order on WhatsApp
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <!-- ============================= -->
+<!-- FOOTER -->
+<!-- ============================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <h3>
+            Jai Mateshri Bhel & Fast Food
+        </h3>
+
+        <p class="footer-tagline">
+            Serving Happiness Since 1999 ❤️
+        </p>
+
+
+        <!-- Instagram -->
+
+        <a
+            href="https://www.instagram.com/jai_mateshri_bhel_fastfood"
+            class="instagram-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Jai Mateshri Bhel & Fast Food on Instagram"
+        >
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <span>Follow us on Instagram</span>
+
+        </a>
+
+
+        <p class="footer-copyright">
+            © 2026 Jai Mateshri Bhel & Fast Food.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+    <!-- ============================= -->
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <!-- ============================= -->
+
+    <a
+
+        href="https://wa.me/91976310500"
+
+        class="floating-whatsapp"
+
+        target="_blank"
+
+        rel="noopener noreferrer"
+
+        aria-label="Contact us on WhatsApp"
+
+    >
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+
+    <!-- ============================= -->
+    <!-- FLOATING CALL BUTTON -->
+    <!-- ============================= -->
+
+    <a
+
+        href="tel:+919765310500"
+
+        class="floating-call"
+
+        aria-label="Call Jai Mateshri"
+
+    >
+
+        <i class="fa-solid fa-phone"></i>
+
+    </a>
+
+
+
+    <!-- ============================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================= -->
+
+    <script src="js/script.js"></script>
+
+    <script src="js/menu.js"></script>
+
+
+</body>
+
+</html>
