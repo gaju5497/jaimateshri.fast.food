@@ -1,0 +1,335 @@
+{
+  "restaurant": {
+    "name": "Jai Mateshri Bhel & Fast Food",
+    "tagline": "Taste Ekdam Best",
+    "since": 1999,
+    "currency": "₹",
+    "whatsapp": "919579189992",
+    "phone": "+919579189992"
+  },
+  "categories": [
+    {
+      "id": "pani-puri",
+      "name": "Pani Puri",
+      "icon": "🥣",
+      "description": "Fresh, crispy and delicious pani puri varieties."
+    },
+    {
+      "id": "bhel-chaat",
+      "name": "Bhel & Chaat",
+      "icon": "🥗",
+      "description": "Delicious bhel and authentic Indian chaat."
+    },
+    {
+      "id": "dabeli-pav-bhaji",
+      "name": "Dabeli & Pav Bhaji",
+      "icon": "🍔",
+      "description": "Spicy dabeli and buttery pav bhaji favourites."
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "icon": "🍜",
+      "description": "Delicious Chinese favourites prepared fresh."
+    }
+  ],
+  "items": [
+    {
+      "id": "pani-puri",
+      "name": "Pani Puri",
+      "category": "pani-puri",
+      "price": 25,
+      "description": "Fresh and crispy pani puri served with delicious spicy and tangy water.",
+      "image": "images/menu/panipuri.jpeg",
+      "popular": true,
+      "bestseller": true,
+      "available": true
+    },
+    {
+      "id": "sukka-masala-puri",
+      "name": "Sukka Masala Puri",
+      "category": "pani-puri",
+      "price": 25,
+      "description": "Crispy puris filled with delicious dry masala and flavorful spices.",
+      "image": "images/menu/sukha_masala_puri.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "shev-puri",
+      "name": "Shev Puri",
+      "category": "pani-puri",
+      "price": 35,
+      "description": "Crispy puris topped with flavorful chutneys, vegetables and crunchy sev.",
+      "image": "images/menu/shevpuri.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "dahi-puri",
+      "name": "Dahi Puri",
+      "category": "pani-puri",
+      "price": 35,
+      "description": "Crispy puris topped with creamy curd, chutneys and delicious masala.",
+      "image": "images/menu/sukha_masala_puri.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "ragda-puri",
+      "name": "Ragda Puri",
+      "category": "pani-puri",
+      "price": 35,
+      "description": "Crispy puris served with flavorful ragda, chutneys and Indian spices.",
+      "image": "images/menu/ragda_puri.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "pani-puri-family-pack-50",
+      "name": "Pani Puri Family Pack - 50 Pcs",
+      "category": "pani-puri",
+      "price": 200,
+      "description": "A family pack containing 50 pieces of delicious pani puri, perfect for sharing.",
+      "image": "images/menu/pani_puri_familypack.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "pani-puri-family-pack-100",
+      "name": "Pani Puri Family Pack - 100 Pcs",
+      "category": "pani-puri",
+      "price": 350,
+      "description": "A large family pack containing 100 pieces of delicious pani puri, perfect for parties and gatherings.",
+      "image": "images/menu/pani_puri_familypack.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "bhel-pakodi",
+      "name": "Bhel Pakodi",
+      "category": "bhel-chaat",
+      "price": 35,
+      "description": "A delicious combination of crispy pakodi, bhel ingredients and flavorful chutneys.",
+      "image": "images/menu/bhel.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "sukka-bhel-pakodi",
+      "name": "Sukka Bhel Pakodi",
+      "category": "bhel-chaat",
+      "price": 35,
+      "description": "A flavorful dry version of bhel pakodi with crunchy ingredients and special masala.",
+      "image": "images/menu/sukha_bhel_pakodi.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "special-bhel-pakodi",
+      "name": "Special Bhel Pakodi",
+      "category": "bhel-chaat",
+      "price": 45,
+      "description": "Our special bhel pakodi prepared with a delicious combination of fresh ingredients and flavorful chutneys.",
+      "image": "images/menu/spec_bhel_pakodi.jpeg",
+      "popular": true,
+      "bestseller": true,
+      "available": true
+    },
+    {
+      "id": "samosa-chat",
+      "name": "Samosa Chat",
+      "category": "bhel-chaat",
+      "price": 35,
+      "description": "Crispy samosa topped with flavorful chutneys and delicious chaat toppings.",
+      "image": "images/menu/samosa_chat.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "papdi-chat",
+      "name": "Papdi Chat",
+      "category": "bhel-chaat",
+      "price": 35,
+      "description": "Crispy papdi topped with chutneys, spices and delicious chaat ingredients.",
+      "image": "images/menu/papdi_chat.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "dahi-papdi",
+      "name": "Dahi Papdi",
+      "category": "bhel-chaat",
+      "price": 45,
+      "description": "Crispy papdi topped with creamy curd, chutneys and flavorful Indian spices.",
+      "image": "images/menu/dahi_papdi.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "dabeli",
+      "name": "Dabeli",
+      "category": "dabeli-pav-bhaji",
+      "price": 20,
+      "description": "A delicious and spicy Indian street food bun filled with flavorful dabeli masala.",
+      "image": "images/menu/dabeli.jpeg",
+      "popular": true,
+      "bestseller": true,
+      "available": true
+    },
+    {
+      "id": "special-butter-dabeli",
+      "name": "Special Butter Dabeli",
+      "category": "dabeli-pav-bhaji",
+      "price": 25,
+      "description": "A special buttery version of our delicious dabeli, prepared with rich butter and flavorful masala.",
+      "image": "images/menu/spec_butter_dabeli.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "pav-bhaji",
+      "name": "Pav Bhaji",
+      "category": "dabeli-pav-bhaji",
+      "price": 60,
+      "description": "Delicious buttery pav served with flavorful and spicy mixed vegetable bhaji.",
+      "image": "images/menu/pavbhaji.jpeg",
+      "popular": true,
+      "bestseller": true,
+      "available": true
+    },
+    {
+      "id": "special-pav-bhaji",
+      "name": "Special Pav Bhaji",
+      "category": "dabeli-pav-bhaji",
+      "price": 70,
+      "description": "Our special pav bhaji prepared with rich flavors, extra butter and delicious spices.",
+      "image": "images/menu/spec_pav_bhaji.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "extra-single-pav",
+      "name": "Extra Single Pav",
+      "category": "dabeli-pav-bhaji",
+      "price": 5,
+      "description": "Extra single pav served with your favourite pav bhaji.",
+      "image": "images/menu/extra_single_pav.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "extra-bhaji",
+      "name": "Extra Bhaji",
+      "category": "dabeli-pav-bhaji",
+      "price": 40,
+      "description": "An extra serving of delicious and flavorful bhaji.",
+      "image": "images/menu/extra_bhaji.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "veg-manchurian",
+      "name": "Veg Manchurian",
+      "category": "chinese",
+      "price": 70,
+      "description": "Delicious vegetable Manchurian prepared with flavorful Indo-Chinese sauce.",
+      "image": "images/menu/veg_manchurian.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "gobi-manchurian",
+      "name": "Gobi Manchurian",
+      "category": "chinese",
+      "price": 80,
+      "description": "Crispy cauliflower tossed in delicious and flavorful Manchurian sauce.",
+      "image": "images/menu/veg_manchurian.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "gobi-65",
+      "name": "Gobi 65",
+      "category": "chinese",
+      "price": 90,
+      "description": "Crispy and spicy fried cauliflower prepared with flavorful Indian spices.",
+      "image": "images/menu/gobi_65.jpeg",
+      "popular": false,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "veg-noodles",
+      "name": "Veg Noodles",
+      "category": "chinese",
+      "price": 70,
+      "description": "Freshly prepared vegetable noodles tossed with colorful vegetables and delicious spices.",
+      "image": "images/menu/noodles.jpeg",
+      "popular": true,
+      "bestseller": true,
+      "available": true
+    },
+    {
+      "id": "hakka-noodles",
+      "name": "Hakka Noodles",
+      "category": "chinese",
+      "price": 70,
+      "description": "Delicious Hakka noodles prepared with fresh vegetables and flavorful Indo-Chinese seasoning.",
+      "image": "images/menu/hakka_noodles.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "mix-manchurian-noodles",
+      "name": "Mix Manchurian Noodles",
+      "category": "chinese",
+      "price": 100,
+      "description": "A delicious combination of noodles and flavorful Manchurian prepared with special Indo-Chinese sauces.",
+      "image": "images/menu/mix_manchurian_noodles.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "veg-fried-rice",
+      "name": "Veg Fried Rice",
+      "category": "chinese",
+      "price": 70,
+      "description": "Flavorful fried rice prepared with fresh vegetables and aromatic Chinese-style seasoning.",
+      "image": "images/menu/friedrice.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    },
+    {
+      "id": "mix-manchurian-rice",
+      "name": "Mix Manchurian Rice",
+      "category": "chinese",
+      "price": 100,
+      "description": "A delicious combination of flavorful fried rice and Manchurian prepared with special Indo-Chinese sauces.",
+      "image": "images/menu/veg_friedrice.jpeg",
+      "popular": true,
+      "bestseller": false,
+      "available": true
+    }
+  ]
+}
